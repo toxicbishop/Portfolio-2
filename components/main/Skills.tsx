@@ -22,9 +22,9 @@ const Skills = () => {
         >
             <SkillText />
 
-            <div className="flex flex-col items-center justify-center w-[95%] gap-4">
-                <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-4">
-                    <div className="w-full lg:w-1/2 h-full">
+            <div className="flex flex-col items-center justify-center w-full px-4 md:px-0 gap-8">
+                <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8">
+                    <div className="w-full lg:w-1/2">
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
@@ -32,13 +32,12 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-xl bg-[#03001417] backdrop-blur-md text-[white] w-full py-6 px-6 border border-[#7042f88b]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Frontend{" "}
-                                    </span>
-                                    <br />
-                                    <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
+                                    <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold mb-6 text-center lg:text-left">
+                                        Frontend
+                                    </h3>
+                                    <div className="flex flex-row justify-center lg:justify-start flex-wrap gap-6 items-center">
                                         {Frontend_skill.map((image, index) => (
                                             <SkillDataProvider
                                                 key={index}
@@ -53,7 +52,7 @@ const Skills = () => {
                             )}
                         </InView>
                     </div>
-                    <div className="w-full lg:w-1/2 h-full">
+                    <div className="w-full lg:w-1/2">
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
@@ -61,13 +60,12 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromRight(0.5)}
-                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-xl bg-[#03001417] backdrop-blur-md text-[white] w-full py-6 px-6 border border-[#7042f88b]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Backend{" "}
-                                    </span>
-                                    <br />
-                                    <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
+                                    <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold mb-6 text-center lg:text-left">
+                                        Backend
+                                    </h3>
+                                    <div className="flex flex-row justify-center lg:justify-start flex-wrap gap-6 items-center">
                                         {Backend_skill.map((image, index) => (
                                             <SkillDataProvider
                                                 key={index}
@@ -83,8 +81,8 @@ const Skills = () => {
                         </InView>
                     </div>
                 </div>
-                <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-4">
-                    <div className="w-full lg:w-1/2 h-full">
+                <div className="w-full flex flex-col lg:flex-row items-center justify-center gap-8">
+                    <div className="w-full lg:w-1/2">
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
@@ -92,13 +90,12 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromLeft(0.5)}
-                                    className="rounded-md text-[white] w-full my-auto py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-xl bg-[#03001417] backdrop-blur-md text-[white] w-full py-6 px-6 border border-[#7042f88b]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Dev Tools{" "}
-                                    </span>
-                                    <br />
-                                    <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
+                                    <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold mb-6 text-center lg:text-left">
+                                        Dev Tools
+                                    </h3>
+                                    <div className="flex flex-row justify-center lg:justify-start flex-wrap gap-6 items-center">
                                         {DevTools.map((image, index) => (
                                             <SkillDataProvider
                                                 key={index}
@@ -113,7 +110,7 @@ const Skills = () => {
                             )}
                         </InView>
                     </div>
-                    <div className="w-full lg:w-1/2 h-full">
+                    <div className="w-full lg:w-1/2">
                         <InView triggerOnce={false}>
                             {({ inView, ref }) => (
                                 <motion.div
@@ -121,13 +118,12 @@ const Skills = () => {
                                     initial="hidden"
                                     animate={inView ? "visible" : "hidden"}
                                     variants={slideInFromRight(0.5)}
-                                    className="rounded-md text-[white] w-full h-full py-[8px] px-[10px] border border-[#7042f88b] opacity-[0.9]"
+                                    className="rounded-xl bg-[#03001417] backdrop-blur-md text-[white] w-full py-6 px-6 border border-[#7042f88b]"
                                 >
-                                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold">
-                                        Libraries{" "}
-                                    </span>
-                                    <br />
-                                    <div className="flex flex-row justify-around flex-wrap my-4 gap-5 items-center">
+                                    <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 text-2xl font-bold mb-6 text-center lg:text-left">
+                                        Libraries
+                                    </h3>
+                                    <div className="flex flex-row justify-center lg:justify-start flex-wrap gap-6 items-center">
                                         {libraries.map((image, index) => (
                                             <SkillDataProvider
                                                 key={index}
