@@ -11,16 +11,16 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
+        <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] z-[50] relative">
             <div className="w-full flex flex-col items-center justify-center m-auto">
                 <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <div className="font-bold text-[16px]">Community</div>
+                        <div className="font-bold text-[16px]">Social Media</div>
                         <a 
                             href="https://github.com/toxicbishop" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
+                            className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
                         >
                             <RxGithubLogo />
                             <span className="text-[15px] ml-[6px]">Github</span>
@@ -29,57 +29,35 @@ const Footer = () => {
                             href="https://www.linkedin.com/in/pranav-arun/" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
+                            className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
                         >
                             <RxLinkedinLogo />
                             <span className="text-[15px] ml-[6px]">Linkedin</span>
                         </a>
-                    </div>
-                    <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                        <div className="font-bold text-[16px]">
-                            Social Media
-                        </div>
                         <a 
-                            href="https://github.com/toxicbishop" 
+                            href="https://discord.com/users/701732138269016064" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
+                            className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
                         >
-                            <RxGithubLogo />
-                            <span className="text-[15px] ml-[6px]">Github</span>
-                        </a>
-                        <a 
-                            href="https://www.linkedin.com/in/pranav-arun/" 
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
-                        >
-                            <RxLinkedinLogo />
-                            <span className="text-[15px] ml-[6px]">Linkedin</span>
+                            <RxDiscordLogo />
+                            <span className="text-[15px] ml-[6px]">Discord</span>
                         </a>
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Legal</div>
-                        <a 
-                            href="#"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
-                        >
+                        <a href="#" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                             <span className="text-[15px] ml-[6px]">Privacy Policy</span>
                         </a>
-                        <a 
-                            href="#"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
-                        >
+                        <a href="#" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                             <span className="text-[15px] ml-[6px]">Terms & Conditions</span>
                         </a>
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Contact</div>
                         <a 
-                            href="https://mail.google.com/mail/?view=cm&fs=1&to=pranavarun19@gmail.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="flex flex-row items-center my-[15px] cursor-pointer"
+                            href="mailto:pranavarun19@gmail.com"
+                            className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
                         >
                             <span className="text-[15px] ml-[6px]">
                                 pranavarun19@gmail.com

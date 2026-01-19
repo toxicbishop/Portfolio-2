@@ -42,7 +42,6 @@ const Skills = () => {
                                             <SkillDataProvider
                                                 key={index}
                                                 src={image.Image}
-                                                name={image.skill_name}
                                                 width={image.width}
                                                 height={image.height}
                                                 index={index}
@@ -71,7 +70,6 @@ const Skills = () => {
                                             <SkillDataProvider
                                                 key={index}
                                                 src={image.Image}
-                                                name={image.skill_name}
                                                 width={image.width}
                                                 height={image.height}
                                                 index={index}
@@ -102,7 +100,6 @@ const Skills = () => {
                                             <SkillDataProvider
                                                 key={index}
                                                 src={image.Image}
-                                                name={image.skill_name}
                                                 width={image.width}
                                                 height={image.height}
                                                 index={index}
@@ -131,7 +128,6 @@ const Skills = () => {
                                             <SkillDataProvider
                                                 key={index}
                                                 src={image.Image}
-                                                name={image.skill_name}
                                                 width={image.width}
                                                 height={image.height}
                                                 index={index}
