@@ -121,7 +121,7 @@ export const Backend_skill = [
     },
     {
         skill_name: "Flask",
-        Image: "/Flask.svg",
+        Image: "/flask.jpeg",
         width: 40,
         height: 40,
     },
@@ -205,7 +205,7 @@ export const libraries = [
     },
     {
         skill_name: "Flask",
-        Image: "/Flask.svg",
+        Image: "/flask.jpeg",
         width: 50,
         height: 50,
     },
