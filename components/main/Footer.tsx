@@ -46,17 +46,19 @@ const Footer = () => {
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Legal</div>
-                        <a href="#" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="/privacy" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                             <span className="text-[15px] ml-[6px]">Privacy Policy</span>
                         </a>
-                        <a href="#" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
+                        <a href="/terms" className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors">
                             <span className="text-[15px] ml-[6px]">Terms & Conditions</span>
                         </a>
                     </div>
                     <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                         <div className="font-bold text-[16px]">Contact</div>
                         <a 
-                            href="mailto:pranavarun19@gmail.com"
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=pranavarun19@gmail.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="flex flex-row items-center my-[15px] cursor-pointer hover:text-purple-500 transition-colors"
                         >
                             <span className="text-[15px] ml-[6px]">
