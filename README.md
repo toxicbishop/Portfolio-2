@@ -1,4 +1,4 @@
-# Pranav Arun - Full Stack Developer Portfolio
+# My - Full Stack Developer Portfolio
 
 This is the source code for my professional portfolio website, built using modern web technologies focusing on performance, scalability, and exceptional user experience.
 
