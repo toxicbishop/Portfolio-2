@@ -24,21 +24,25 @@ const Projects = () => {
                     link="https://dsa-study-hub.vercel.app/"
                 />
                 <ProjectCard
+                    src="/costoflivingbenagluru.jpeg"
                     title="Bengaluru-cost-explorer"
                     description="An interactive explorer for analyzing and visualizing the cost of living and real estate trends in Bengaluru."
                     link="https://github.com/Mohammed0572/bengaluru-cost-explorer"
                 />
                 <ProjectCard
+                    src="/SMS-Pro.png"
                     title="Student-GUI-With-SQL"
                     description="A database-driven management system featuring a graphical user interface for organizing and managing student information efficiently."
                     link="https://github.com/toxicbishop/Student-GUI-With-SQL"
                 />
                 <ProjectCard
+                    src="/Slotmachine.png"
                     title="Slot-Machine"
                     description="A logic-based simulation of a slot machine game, implementing randomized probability and betting mechanics in Python."
                     link="https://github.com/toxicbishop/Slot-Machine"
                 />
                 <ProjectCard
+                    src="/Music-Player-Photo.png"
                     title="Music-Player-With-Python"
                     description="A versatile desktop music player built using Python, supporting core playback features and playlist management."
                     link="https://github.com/toxicbishop/Music-with-python"
