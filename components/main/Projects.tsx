@@ -48,6 +48,7 @@ const Projects = () => {
                     link="https://github.com/toxicbishop/Music-with-python"
                 />
                 <ProjectCard
+                    src="/pokemon.png"
                     title="Pokemon-API-Data-Fetcher"
                     description="An application that connects to the PokeAPI to fetch, process, and display detailed information about various Pokemon."
                     link="https://github.com/toxicbishop/PokeAPI-Data-Fetcher"
