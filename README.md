@@ -22,22 +22,28 @@ This is the source code for my professional portfolio website, built using moder
 ## 📦 Getting Started
 
 1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/toxicbishop/New-Portfolio.git
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
 
 3. **Run the development server**:
+
    ```bash
    npm run dev
    ```
 
 4. **Open the site**:
    Navigate to [http://localhost:3000](http://localhost:3000)
+
+5. **Personalize Resume**:
+   Upload your own resume in the `public/` directory (e.g., as `resume.pdf`) and update the relevant links in the components (such as `Navbar` or `HeroContent`) to point to your file.
 
 ## 📄 License
 
