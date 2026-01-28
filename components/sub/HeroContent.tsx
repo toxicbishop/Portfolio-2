@@ -111,7 +111,7 @@ const HeroContent = () => {
                     ref={ref}
                     initial="hidden"
                     animate={inView ? "visible" : "hidden"}
-                    href="#about"
+                    href="/about"
                     variants={slideInFromLeft(1)}
                     className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                     Learn More!
