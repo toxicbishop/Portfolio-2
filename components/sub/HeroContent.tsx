@@ -113,7 +113,7 @@ const HeroContent = () => {
                     animate={inView ? "visible" : "hidden"}
                     href="#about"
                     variants={slideInFromLeft(1)}
-                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
+                    className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                     Learn More!
                   </motion.a>
                 )}
@@ -127,9 +127,8 @@ const HeroContent = () => {
                     href="/resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
-                    download
                     variants={slideInFromLeft(1.2)}
-                    className="py-2 px-4 border border-[#7042f88b] text-center text-white cursor-pointer rounded-lg max-w-[200px] hover:bg-[#7042f830] transition-all duration-300">
+                    className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg">
                     Resume
                   </motion.a>
                 )}
