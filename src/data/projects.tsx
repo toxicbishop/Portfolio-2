@@ -289,8 +289,8 @@ const projects: Project[] = [
     id: "bengaluru-cost-explorer",
     category: "Data Visualization",
     title: "Cost of Living in Bengaluru",
-    src: "/assets/projects/costoflivingbenagluru.jpeg",
-    screenshots: ["costoflivingbenagluru.jpeg"],
+    src: "/assets/projects/costoflivingbenagluru.png",
+    screenshots: ["costoflivingbenagluru.png"],
     skills: {
       frontend: [
         PROJECT_SKILLS.js,
@@ -311,7 +311,7 @@ const projects: Project[] = [
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
-            images={[`${BASE_PATH}/projects/costoflivingbenagluru.jpeg`]}
+            images={[`${BASE_PATH}/projects/costoflivingbenagluru.png`]}
           />
         </div>
       );
