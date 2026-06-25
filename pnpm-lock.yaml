@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-patchedDependencies:
-  gray-matter@4.0.3:
-    hash: 5e73cf5a4218f9a21d163ff21105495be3eea8c20af0f515db916ab0157fe5bc
-    path: patches/gray-matter@4.0.3.patch
-
 importers:
 
   .:
@@ -78,7 +73,7 @@ importers:
         version: 11.18.2(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       gray-matter:
         specifier: ^4.0.3
-        version: 4.0.3(patch_hash=5e73cf5a4218f9a21d163ff21105495be3eea8c20af0f515db916ab0157fe5bc)
+        version: 4.0.3
       gsap:
         specifier: ^3.15.0
         version: 3.15.0
@@ -5089,7 +5084,7 @@ snapshots:
 
   graphemer@1.4.0: {}
 
-  gray-matter@4.0.3(patch_hash=5e73cf5a4218f9a21d163ff21105495be3eea8c20af0f515db916ab0157fe5bc):
+  gray-matter@4.0.3:
     dependencies:
       js-yaml: 3.14.2
       kind-of: 6.0.3
