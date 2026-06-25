@@ -1,0 +1,11 @@
+overrides:
+  postcss: ">=8.5.15"
+  js-yaml: ">=4.2.0"
+
+patchedDependencies:
+  gray-matter@4.0.3: patches/gray-matter@4.0.3.patch
+
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - sharp
+  - unrs-resolver
