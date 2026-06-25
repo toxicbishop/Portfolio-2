@@ -63,8 +63,7 @@
   },
   "pnpm": {
     "overrides": {
-      "postcss": "^8.5.15",
-      "js-yaml": "^4.1.0"
+      "postcss": "^8.5.15"
     }
   }
 }
