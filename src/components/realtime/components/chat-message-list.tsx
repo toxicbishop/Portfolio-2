@@ -13,7 +13,7 @@ interface ChatMessageListProps {
   msgs: Message[];
   users: User[];
   currentUser: User | undefined;
-  chatContainerRef: React.RefObject<HTMLDivElement>;
+  chatContainerRef: React.RefObject<HTMLDivElement | null>;
   showScrollButton: boolean;
   unreads: number;
   scrollToBottom: (smooth?: boolean) => void;

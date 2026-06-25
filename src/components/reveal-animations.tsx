@@ -45,7 +45,7 @@ export const BlurIn = ({
 };
 
 interface BoxRevealProps {
-  children: JSX.Element;
+  children: React.ReactNode;
   width?: "fit-content" | "100%";
   boxColor?: string;
   duration?: number;
