@@ -1,10 +1,10 @@
-# 🚀 My Portfolio Website
+# My Portfolio Website
 
 Welcome to the repository for my personal portfolio website! This is where I showcase my skills, projects, and a bit of my personality through jaw-dropping 3D animations, slick interactions, and fluid motion. If you're into creative web design, you're in the right place.
 
 ![Portfolio Preview](public/assets/portfolio/landing.png)
 
-## 🔥 Features
+## Features
 
 - **3D Animations**: Custom-made interactive keyboard using Spline with skills as keycaps that reveal titles and descriptions on hover.
 - **Slick Interactions**: Powered by GSAP and Framer Motion for smooth animations on scroll, hover, and element reveal.
@@ -12,13 +12,13 @@ Welcome to the repository for my personal portfolio website! This is where I sho
 - **Responsive Design**: Fully responsive across all devices to ensure the best user experience.
 - **Innovative Web Design**: Combining creativity with functionality to push the boundaries of modern web design.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js, React, Tailwind CSS, Shadcn, Aceternity UI
 - **Animations**: GSAP, Framer Motion, Spline Runtime
 - **Misc**: Resend, Socketio, Zod
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -63,21 +63,7 @@ Welcome to the repository for my personal portfolio website! This is where I sho
 
 6. **Upload your resume**: Replace the placeholder resume (or add your own) at `public/assets/resume.pdf`. This file is ignored by git to keep your personal information private when you push to your own repository.
 
-### 🐳 Docker
-
-1. Build the image:
-
-   ```bash
-   docker build -t portfolio .
-   ```
-
-2. Run the container:
-
-   ```bash
-   docker run -p 3000:3000 portfolio
-   ```
-
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -99,7 +85,7 @@ Welcome to the repository for my personal portfolio website! This is where I sho
 └── tsconfig.json        # TypeScript configuration
 ```
 
-## 🚀 Deployment
+## Deployment
 
 This site is deployed on Vercel. For your own deployment, follow these steps:
 
@@ -107,10 +93,10 @@ This site is deployed on Vercel. For your own deployment, follow these steps:
 2. Connect your repository to Vercel.
 3. Vercel will handle the deployment process.
 
-## 🤝 Contributing
+## Contributing
 
 If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
