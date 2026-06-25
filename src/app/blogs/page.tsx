@@ -33,7 +33,7 @@ export default function BlogPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {posts.map((post, index) => (
           <RevealAnimation key={post.slug} delay={index * 0.1}>
-            <Link href={`/blogs/${post.slug}`}>
+            <Link href={`/blogs/${encodeURIComponent(post.slug)}`}>
               <Card className="h-full bg-black/40 border-zinc-800 backdrop-blur-sm hover:border-purple-500/50 transition-colors group overflow-hidden">
                 <CardHeader>
                   <div className="flex justify-between items-start mb-2">
