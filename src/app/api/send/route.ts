@@ -1,3 +1,4 @@
+import React from "react";
 import { EmailTemplate } from "@/components/email-template";
 import { config } from "@/data/config";
 import { Resend } from "resend";
@@ -27,7 +28,7 @@ const ContactSchema = z.object({
 export async function POST(req: Request) {
   try {
     // 1. Rate Limiting (IP-based)
-    const headerList = headers();
+    const headerList = await headers();
     const ip = headerList.get("x-forwarded-for") || "anonymous";
 
     // Limits: 3 requests per 10 minutes per IP
@@ -88,7 +89,7 @@ export async function POST(req: Request) {
         fullName,
         email,
         message,
-      }),
+      }) as React.ReactElement,
     });
 
     if (resendError) {

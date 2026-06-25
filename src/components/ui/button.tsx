@@ -53,8 +53,8 @@ const addClassNameRecursively = (
 
     return cloneElement(child, {
       // @ts-ignore
-      className: `${child.props.className || ""} ${className}`.trim(),
-      children: addClassNameRecursively(child.props.children, className),
+      className: `${(child as any).props.className || ""} ${className}`.trim(),
+      children: addClassNameRecursively((child as any).props.children, className),
     });
   };
   return Children.map(children, foo);
