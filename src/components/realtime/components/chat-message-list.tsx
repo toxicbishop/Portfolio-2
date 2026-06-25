@@ -46,7 +46,7 @@ export const ChatMessageList = ({
               <h3 className={cn("text-xl font-bold", THEME.text.header)}>Welcome to #general!</h3>
               <p className={cn("text-sm max-w-[200px]", THEME.text.secondary)}>
                 This is the start of the legendary conversation.
-                {isSingleUser && <span className="block mt-2 text-yellow-600 dark:text-yellow-400/80 text-xs">(It's just you right now, invite a friend!)</span>}
+                {isSingleUser && <span className="block mt-2 text-yellow-600 dark:text-yellow-400/80 text-xs">(It&apos;s just you right now, invite a friend!)</span>}
               </p>
             </div>
           )}

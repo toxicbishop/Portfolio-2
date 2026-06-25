@@ -194,7 +194,6 @@ const OnlineUsers = () => {
                 className={cn(
                   "transition-colors gap-2",
                   THEME.bg.hover,
-                  `hover:${THEME.text.header.replace("text-", "text-")} `,
                   "hover:text-[#060607] dark:hover:text-white",
                   showUserList && cn(THEME.text.header, THEME.bg.active)
                 )}
