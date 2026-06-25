@@ -68,6 +68,7 @@
     },
     "patchedDependencies": {
       "gray-matter@4.0.3": "patches/gray-matter@4.0.3.patch"
-    }
+    },
+    "onlyBuiltDependencies": ["@parcel/watcher", "sharp", "unrs-resolver"]
   }
 }
