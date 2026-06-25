@@ -1,5 +1,14 @@
 # My Portfolio Website
 
+[![Build Status](https://github.com/toxicbishop/Portfolio-2/actions/workflows/ci.yml/badge.svg)](https://github.com/toxicbishop/Portfolio-2/actions/workflows/ci.yml)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Welcome to the repository for my personal portfolio website! This is where I showcase my skills, projects, and a bit of my personality through jaw-dropping 3D animations, slick interactions, and fluid motion. If you're into creative web design, you're in the right place.
 
 ![Portfolio Preview](public/assets/portfolio/landing.png)
