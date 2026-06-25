@@ -1,6 +1,5 @@
 # My Portfolio Website
 
-[![Build Status](https://github.com/toxicbishop/Portfolio-2/actions/workflows/ci.yml/badge.svg)](https://github.com/toxicbishop/Portfolio-2/actions/workflows/ci.yml)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)
