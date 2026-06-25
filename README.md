@@ -39,13 +39,13 @@ Welcome to the repository for my personal portfolio website! This is where I sho
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/toxicbishop/Portfolio-3.git
+   git clone https://github.com/toxicbishop/Portfolio-2.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd Portfolio-3
+   cd Portfolio-2
    ```
 
 3. Install dependencies (choose one):
