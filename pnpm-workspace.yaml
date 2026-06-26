@@ -1,4 +1,11 @@
 allowBuilds:
-  '@parcel/watcher': false
-  sharp: false
-  unrs-resolver: false
+  '0': '@parcel/watcher'
+  '1': sharp
+  '2': unrs-resolver
+
+overrides:
+  "js-yaml": ">=4.2.0"
+  "postcss": ">=8.5.10"
+
+patchedDependencies:
+  gray-matter@4.0.3: "patches/gray-matter@4.0.3.patch"

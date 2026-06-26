@@ -60,15 +60,5 @@
     "postcss": "^8.5.15",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "postcss": ">=8.5.10",
-      "js-yaml": ">=4.2.0"
-    },
-    "patchedDependencies": {
-      "gray-matter@4.0.3": "patches/gray-matter@4.0.3.patch"
-    },
-    "onlyBuiltDependencies": ["@parcel/watcher", "sharp", "unrs-resolver"]
   }
 }
