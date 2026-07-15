@@ -302,6 +302,24 @@ export const EXPERIENCE: Experience[] = [
     ],
   },
   {
+    id: 3,
+    startDate: "Mar 2026",
+    endDate: "May 2026",
+    title: "Software Development Intern",
+    company: "Cognifyz Technologies",
+    description: [
+      "Gained hands-on experience across multiple domains of software engineering",
+      "Software Development — Built and maintained production-grade applications",
+      "Machine Learning — Worked on ML models and data-driven solutions",
+      "Android Development — Developed mobile applications for the Android platform",
+    ],
+    skills: [
+      SkillNames.JS,
+      SkillNames.TS,
+      SkillNames.NODEJS,
+    ],
+  },
+  {
     id: 2,
     startDate: "Apr 2022",
     endDate: "Dec 2024",

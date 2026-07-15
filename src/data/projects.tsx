@@ -299,7 +299,7 @@ const projects: Project[] = [
       ],
       backend: [PROJECT_SKILLS.node, PROJECT_SKILLS.express],
     },
-    live: "#",
+    live: "https://costinbengaluru.netlify.app",
     github: "https://github.com/Mohammed0572/bengaluru-cost-explorer",
     get content() {
       return (
@@ -309,7 +309,7 @@ const projects: Project[] = [
             areas of Bengaluru. Helping people make informed decisions about
             relocation and budgeting in the Garden City.
           </TypographyP>
-          <ProjectsLinks live={this.live} repo={this.github} />
+          <ProjectsLinks live="https://costinbengaluru.netlify.app" repo={this.github} />
           <SlideShow
             images={[`${BASE_PATH}/projects/costoflivingbenagluru.png`]}
           />

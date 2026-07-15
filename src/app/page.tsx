@@ -5,6 +5,7 @@ import dynamic from "next/dynamic";
 import SmoothScroll from "@/components/smooth-scroll";
 import { cn } from "@/lib/utils";
 import SkillsSection from "@/components/sections/skills";
+import ExperienceSection from "@/components/sections/experience";
 import EducationSection from "@/components/sections/education";
 import ProjectsSection from "@/components/sections/projects";
 import ContactSection from "@/components/sections/contact";
@@ -63,6 +64,7 @@ function MainPage() {
         className={cn("bg-slate-100 dark:bg-transparent canvas-overlay-mode")}>
         <HeroSection />
         <SkillsSection />
+        <ExperienceSection />
         <EducationSection />
         <ProjectsSection />
         <ContactSection />
