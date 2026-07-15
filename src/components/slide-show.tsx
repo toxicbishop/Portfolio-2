@@ -2,7 +2,7 @@
 import { Splide, SplideSlide, SplideTrack } from "@splidejs/react-splide";
 import { motion } from "framer-motion";
 
-import "@splidejs/react-splide/dist/css/splide.min.css";
+import "@splidejs/react-splide/css";
 
 import Image from "next/image";
 import {
