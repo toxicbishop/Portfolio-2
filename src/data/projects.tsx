@@ -271,6 +271,8 @@ const projects: Project[] = [
           </TypographyP>
           <TypographyP className="font-mono ">
             Secure AES-256 file encryption with blockchain-based audit logging for tamper-resistant compliance tracking and forensic verification.
+            <br /><br />
+            Collaborators: <a href="https://github.com/Mohammed0572" target="_blank" rel="noreferrer" className="underline hover:text-primary">Syed</a>, <a href="https://github.com/supr1795" target="_blank" rel="noreferrer" className="underline hover:text-primary">Supreeth</a>, <a href="https://github.com/Rohithgaloth" target="_blank" rel="noreferrer" className="underline hover:text-primary">Rohith</a>
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow images={[`${BASE_PATH}/projects/CRYPTVAULT.png`]} />
@@ -391,6 +393,8 @@ const projects: Project[] = [
             An insightful explorer that visualizes the cost of living in various
             areas of Bengaluru. Helping people make informed decisions about
             relocation and budgeting in the Garden City.
+            <br /><br />
+            Collaborators: <a href="https://github.com/Mohammed0572" target="_blank" rel="noreferrer" className="underline hover:text-primary">Syed</a>, <a href="https://github.com/supr1795" target="_blank" rel="noreferrer" className="underline hover:text-primary">Supreeth</a>, <a href="https://github.com/Rohithgaloth" target="_blank" rel="noreferrer" className="underline hover:text-primary">Rohith</a>
           </TypographyP>
           <ProjectsLinks live="https://costinbengaluru.netlify.app" repo={this.github} />
           <SlideShow
