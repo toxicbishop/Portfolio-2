@@ -223,6 +223,35 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    id: "blockchain-voting",
+    category: "Web App",
+    title: "Multi-Modal Blockchain Voting System",
+    src: "/assets/projects/voting-system.png",
+    screenshots: ["voting-system.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.react],
+      backend: [PROJECT_SKILLS.node],
+    },
+    live: "#",
+    github: "https://github.com/Mohammed0572/VotingSystem",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Decentralized Election Platform
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            A tamper-proof election platform integrating biometric facial recognition with decentralized Ethereum ledgers.
+            <br /><br />
+            Collaborators: <a href="https://github.com/Mohammed0572" target="_blank" rel="noreferrer" className="underline hover:text-primary">Syed</a>, <a href="https://github.com/supr1795" target="_blank" rel="noreferrer" className="underline hover:text-primary">Supreeth</a>, <a href="https://github.com/Rohithgaloth" target="_blank" rel="noreferrer" className="underline hover:text-primary">Rohith</a>
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/projects/voting-system.png`]} />
+        </div>
+      );
+    },
+  },
+  {
     id: "cryptvault",
     category: "Security",
     title: "CRYPTVAULT",
