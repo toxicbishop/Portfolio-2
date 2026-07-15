@@ -2,6 +2,9 @@ allowBuilds:
   '0': '@parcel/watcher'
   '1': sharp
   '2': unrs-resolver
+  '@parcel/watcher': false
+  sharp: false
+  unrs-resolver: false
 
 overrides:
   "js-yaml": ">=4.2.0"
