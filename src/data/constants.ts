@@ -283,25 +283,6 @@ export const EDUCATION: Education[] = [
 
 export const EXPERIENCE: Experience[] = [
   {
-    id: 1,
-    startDate: "Dec 2024",
-    endDate: "Present",
-    title: "Full Stack Engineer",
-    company: "OmniNexus",
-    description: [
-      "Developing scalable full-stack applications involved in complex systems.",
-      "Optimizing database performance and query efficiency.",
-      "Collaborating on architectural decisions and technical strategy.",
-    ],
-    skills: [
-      SkillNames.NEXTJS,
-      SkillNames.TS,
-      SkillNames.POSTGRES,
-      SkillNames.DOCKER,
-      SkillNames.AWS,
-    ],
-  },
-  {
     id: 3,
     startDate: "Mar 2026",
     endDate: "May 2026",
@@ -317,25 +298,6 @@ export const EXPERIENCE: Experience[] = [
       SkillNames.JS,
       SkillNames.TS,
       SkillNames.NODEJS,
-    ],
-  },
-  {
-    id: 2,
-    startDate: "Apr 2022",
-    endDate: "Dec 2024",
-    title: "Freelance Developer",
-    company: "Live & Learn",
-    description: [
-      "Delivered custom web solutions for diverse clients.",
-      "Managed full project lifecycles from design to deployment.",
-      "Maintained high client satisfaction through effective communication.",
-    ],
-    skills: [
-      SkillNames.REACT,
-      SkillNames.NODEJS,
-      SkillNames.MONGODB,
-      SkillNames.TAILWIND,
-      SkillNames.WORDPRESS,
     ],
   },
 ];
