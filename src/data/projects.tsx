@@ -223,6 +223,89 @@ export type Project = {
 
 const projects: Project[] = [
   {
+    id: "blockchain-voting",
+    category: "Web App",
+    title: "Multi-Modal Blockchain Voting System",
+    src: "/assets/projects/voting-system.png",
+    screenshots: ["voting-system.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.react],
+      backend: [PROJECT_SKILLS.node],
+    },
+    live: "#",
+    github: "https://github.com/Mohammed0572/VotingSystem",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Decentralized Election Platform
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            A tamper-proof election platform integrating biometric facial recognition with decentralized Ethereum ledgers.
+            <br /><br />
+            Collaborators: <a href="https://github.com/Mohammed0572" target="_blank" rel="noreferrer" className="underline hover:text-primary">Syed</a>, <a href="https://github.com/supr1795" target="_blank" rel="noreferrer" className="underline hover:text-primary">Supreeth</a>, <a href="https://github.com/Rohithgaloth" target="_blank" rel="noreferrer" className="underline hover:text-primary">Rohith</a>
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/projects/voting-system.png`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "cryptvault",
+    category: "Security",
+    title: "CRYPTVAULT",
+    src: "/assets/projects/CRYPTVAULT.png",
+    screenshots: ["CRYPTVAULT.png"],
+    skills: {
+      frontend: [],
+      backend: [PROJECT_SKILLS.python],
+    },
+    live: "#",
+    github: "https://github.com/toxicbishop/Crypt-Vault",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Secure File Encryption
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            Secure AES-256 file encryption with blockchain-based audit logging for tamper-resistant compliance tracking and forensic verification.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/projects/CRYPTVAULT.png`]} />
+        </div>
+      );
+    },
+  },
+  {
+    id: "kssem-erp",
+    category: "Web App",
+    title: "KSSEM College ERP System",
+    src: "/assets/projects/Clg-ERP-LandingPage.png",
+    screenshots: ["Clg-ERP-LandingPage.png"],
+    skills: {
+      frontend: [PROJECT_SKILLS.next, PROJECT_SKILLS.ts],
+      backend: [PROJECT_SKILLS.firebase],
+    },
+    live: "#",
+    github: "https://github.com/toxicbishop/KSSEM-College-ERP-System",
+    get content() {
+      return (
+        <div>
+          <TypographyP className="font-mono text-2xl text-center">
+            Modern College ERP
+          </TypographyP>
+          <TypographyP className="font-mono ">
+            A modern, AI-powered College ERP system built with Next.js and Firebase. Features role-based dashboards (Student, Faculty, Admin), attendance tracking with Genkit AI analytics, grade entry, fee management, and secure role management.
+          </TypographyP>
+          <ProjectsLinks live={this.live} repo={this.github} />
+          <SlideShow images={[`${BASE_PATH}/projects/Clg-ERP-LandingPage.png`]} />
+        </div>
+      );
+    },
+  },
+  {
     id: "slot-machine-v3",
     category: "Game",
     title: "Slot Machine",
