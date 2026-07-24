@@ -12,6 +12,11 @@ overrides:
 patchedDependencies:
   gray-matter@4.0.3: 5e73cf5a4218f9a21d163ff21105495be3eea8c20af0f515db916ab0157fe5bc
 
+approvedBuilds:
+  - '@parcel/watcher'
+  - sharp
+  - unrs-resolver
+
 importers:
 
   .:
