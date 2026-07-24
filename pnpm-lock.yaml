@@ -12,11 +12,6 @@ overrides:
 patchedDependencies:
   gray-matter@4.0.3: 5e73cf5a4218f9a21d163ff21105495be3eea8c20af0f515db916ab0157fe5bc
 
-approvedBuilds:
-  - '@parcel/watcher'
-  - sharp
-  - unrs-resolver
-
 importers:
 
   .:
@@ -56,7 +51,7 @@ importers:
         version: 0.7.12
       '@splinetool/react-spline':
         specifier: ^4.1.0
-        version: 4.1.0(@splinetool/runtime@1.12.98)(next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+        version: 4.1.0(@splinetool/runtime@1.12.98)(next@15.5.21(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       '@splinetool/runtime':
         specifier: ^1.12.97
         version: 1.12.98
@@ -100,8 +95,8 @@ importers:
         specifier: ^12.41.0
         version: 12.42.0(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
       next:
-        specifier: 15.5.19
-        version: 15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0)
+        specifier: 15.5.21
+        version: 15.5.21(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0)
       next-mdx-remote:
         specifier: ^6.0.0
         version: 6.0.0(@types/react@19.2.17)(react@19.2.7)
@@ -190,8 +185,8 @@ packages:
   '@emnapi/runtime@1.10.0':
     resolution: {integrity: sha512-ewvYlk86xUoGI0zQRNq/mC+16R1QeDlKQy21Ki3oSYXNgLb45GV1P6A0M+/s6nyCuNDqe5VpaY84BzXGwVbwFA==}
 
-  '@emnapi/runtime@1.11.1':
-    resolution: {integrity: sha512-vgj7R3y3Wgx24IQaGPA/R6YFXLHVMOZ0uVEyIQPaWs+rd1AzfEMXlAC22FYwO1XkKR6NPsq7mUandH8oIRdZFw==}
+  '@emnapi/runtime@1.11.2':
+    resolution: {integrity: sha512-kyOl3X0DuTiT1h2ft8r2fYO8JYtU9a9Xis/zBSiGArNaagCOWx90N1k2wxp18czFDH+OgcWGb5ZP/XMt3dcyPA==}
 
   '@emnapi/wasi-threads@1.2.1':
     resolution: {integrity: sha512-uTII7OYF+/Mes/MrcIOYp5yOtSMLBWSIoLPpcgwipoiKbli6k322tcoFsxoIIxPDqW01SQGAgko4EzZi2BNv2w==}
@@ -429,60 +424,60 @@ packages:
       '@emnapi/core': ^1.7.1
       '@emnapi/runtime': ^1.7.1
 
-  '@next/env@15.5.19':
-    resolution: {integrity: sha512-sWWluFvcv5v3Fxznmf2ZfjyoVQt/64oCnYqS90inQWGzMPK1VjvekPiz3OPHKmFT30EnHrjlbyaHLt3M0vWabw==}
+  '@next/env@15.5.21':
+    resolution: {integrity: sha512-hjJI/GfrjWHgNguRIBzItjRRu0m3Nrz17GhxsjuHfjIvg9hyg3239REd2dpI+bpMTFuVrVprHzEQ19m++cDtbw==}
 
   '@next/eslint-plugin-next@15.5.19':
     resolution: {integrity: sha512-Ctwb4qYuMbHN/1oXLlTdMchwG8h8Xzwq+wGZZMgF3o6+uwyBKAI2c96bdOsl+C62PaUD0Jkh+QpNkhUeDlam0Q==}
 
-  '@next/swc-darwin-arm64@15.5.19':
-    resolution: {integrity: sha512-jx9wWlTKueHKPvVOndyr7WuaevWCkuYqsQ8gC0TMPKAVWG3MhcdMrjfo9tvIZNXd0QOUYXXvAcZ325y8Uq7uzg==}
+  '@next/swc-darwin-arm64@15.5.21':
+    resolution: {integrity: sha512-ZfjqPEdi6TRC/fWx7UDbwb1fbVgyh2uD5tVTRKIDZDlYM+UNuE/LafDG2fwuAoZilADpABh46OY/F5qf9JjqLQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
 
-  '@next/swc-darwin-x64@15.5.19':
-    resolution: {integrity: sha512-291KFcsIQ3OenRdiUDFOR6W3wezzH4auENXm1gbm1Bjd4ANMMRgxPrWTUztQN43BnVoVuMnHCrLeECIMwgFKbA==}
+  '@next/swc-darwin-x64@15.5.21':
+    resolution: {integrity: sha512-TlCf1NpxgQLzTrexuev75xwmNCJMd1/qkJpTVP1GRRcih93hlIBn1P72hkh8T0gnRFr6BmWksQtbyG3jT6jnww==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
 
-  '@next/swc-linux-arm64-gnu@15.5.19':
-    resolution: {integrity: sha512-WeH+nelQyyMeE2f8FxBRZNrGipya5zHZV2vjzfCOAYyiI6am+NbnWAAldOBFQBB2w0DjJcsvrKqoFT2b7+5YoA==}
+  '@next/swc-linux-arm64-gnu@15.5.21':
+    resolution: {integrity: sha512-LXRsq1p+HvHSi7ygwNcSEEcK0zuo5jS75ZlqFHtOH+LF7qntXAJVJxah+1Pi/GyBm7EpkwU7m4EgbvIKrMqm9A==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-arm64-musl@15.5.19':
-    resolution: {integrity: sha512-5xTOE0lDlDCSSfp+BAif7j17VRRCjWp//ZPZy6NI0QpdrhxtQnsZguSx0xAAZ0c9XZLrLLwCe/XVe5YPrRilKw==}
+  '@next/swc-linux-arm64-musl@15.5.21':
+    resolution: {integrity: sha512-hyGixhFxpDKjqoev6l4KlcRBlt9AXWrGhDZwmwg49sMJM5tnKQPSi+SEj9+e5n+l/bthRGZUdh59GKIs6lQPRw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-linux-x64-gnu@15.5.19':
-    resolution: {integrity: sha512-LTxRmMgqqMv05Had879W00Fm53quiJd3Zuz8h1JSNJ3nGSlbZ/7Tjs1tKyScgN3Au3t3MyPsjPlq60fMmSHLsg==}
+  '@next/swc-linux-x64-gnu@15.5.21':
+    resolution: {integrity: sha512-qfE+YfOba6S2+13e8qn1/UozDVNZ2clBlrs8UtDoax4s8ediu6sq93z66OEHUYlb69Tffh5JTNkgtsAKiSuugg==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@next/swc-linux-x64-musl@15.5.19':
-    resolution: {integrity: sha512-eoNQSpA5PQfB9wBO4RA47MTDXWz1fizy9Y3Z6e4DetYIF3dvjuu8sj7aIGn/bFCU6lnFzTK34NtCaffP4NsQ7Q==}
+  '@next/swc-linux-x64-musl@15.5.21':
+    resolution: {integrity: sha512-BXLGG+EvIwp/Rrgl6HY8sqvD6BOUOIRz8/naDbeLNX7mlA5H2XRcL6MW/0IGnJISfj5BA9gNhFyJj5yOoiIDJQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@next/swc-win32-arm64-msvc@15.5.19':
-    resolution: {integrity: sha512-6UNt2dFuCHOe446sm/Kp69nUe8/wIhnh9bm6Xcqw4qEWCOppLMOvhTBVgvM7invVUNr4SPpP6NOQsACtn2IN9Q==}
+  '@next/swc-win32-arm64-msvc@15.5.21':
+    resolution: {integrity: sha512-tNGNOlT0Wn7E4IMsSnufjXN/l2L2/AGdLLpa2vzS89SYCBuihgLn3ngLsIrvndAnWo9nAkus+4gZHTI/Ijx9HA==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
 
-  '@next/swc-win32-x64-msvc@15.5.19':
-    resolution: {integrity: sha512-PhmojAHyqMne56HBLGu9dhDnHPuFmEjrXSQMM/nW0J6j849lk3ESrVtqNJcCk8CKOV7brpTTbaYAjwKPzKM69w==}
+  '@next/swc-win32-x64-msvc@15.5.21':
+    resolution: {integrity: sha512-DmIdWmC9p4rdNIiQqo8ap0+Cnj6kKtTZnuSCxoYydSc8sgpDgAg9wFhxplunak9imLV0pTvc5WVCOHwm5eHLtQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
@@ -1392,8 +1387,8 @@ packages:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
 
-  caniuse-lite@1.0.30001799:
-    resolution: {integrity: sha512-hG1bReV+OUU+MOqK4t/ZWI0tZOyz3rqS9XuhOUz1cIcbwBKjOyJEJuw9ER5JuNyqxNk8u/JUVbGibBOL1yrjFw==}
+  caniuse-lite@1.0.30001806:
+    resolution: {integrity: sha512-72Cuvd95zbSYPKq6Fhg8eDJRlzgWDf7/mtoZv6Qe/DYNCEBdNxoA3+rZAU2ZhGCpZlns3EssFavaZomckT5Uuw==}
 
   canvas-confetti@1.9.4:
     resolution: {integrity: sha512-yxQbJkAVrFXWNbTUjPqjF7G+g6pDotOUHGbkZq2NELZUMDpiJ85rIEazVb8GTaAptNW2miJAXbs1BtioA251Pw==}
@@ -2435,6 +2430,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  nanoid@3.3.16:
+    resolution: {integrity: sha512-bzlKTyNJ7+LdGIIwy8ijFpIqEQIvafahV7eYykJ8Cvh42EdJeODoJ6gUJXpQJvej1BddH8OqTXZNE/KfbWAu8Q==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
   napi-postinstall@0.3.4:
     resolution: {integrity: sha512-PHI5f1O0EP5xJ9gQmFGMS6IZcrVvTjpXjz7Na41gTE7eE2hK11lg04CECCYEEjdc17EV4DO+fkGEtt7TpTaTiQ==}
     engines: {node: ^12.20.0 || ^14.18.0 || >=16.0.0}
@@ -2455,8 +2455,8 @@ packages:
       react: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
       react-dom: ^16.8 || ^17 || ^18 || ^19 || ^19.0.0-rc
 
-  next@15.5.19:
-    resolution: {integrity: sha512-xNOW6tYshGX1/Oi3F8uuk4gpDeWsSUE/1Z0G5uUMekIxaQ0xc03UXd9II0VQHYMWviMeA0OHpJFAKsHf8bTYVg==}
+  next@15.5.21:
+    resolution: {integrity: sha512-/TsdBtkWLhkl+NVL3Uqws2UphNd6IPzOtzSk1fHaf+0P7GQKLZDUytyhns/Ykbzdy9+YRjwG7ONvrHaaTDdFqQ==}
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -2642,6 +2642,10 @@ packages:
 
   postcss@8.5.15:
     resolution: {integrity: sha512-FfR8sjd4em2T6fb3I2MwAJU7HWVMr9zba+enmQeeWFfCbm+UOC/0X4DS8XtpUTMwWMGbjKYP7xjfNekzyGmB3A==}
+    engines: {node: ^10 || ^12 || >=14}
+
+  postcss@8.5.23:
+    resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
     engines: {node: ^10 || ^12 || >=14}
 
   prelude-ls@1.2.1:
@@ -3200,6 +3204,11 @@ packages:
   zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
 
+approvedBuilds:
+  - '@parcel/watcher'
+  - sharp
+  - unrs-resolver
+
 snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
@@ -3223,7 +3232,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
-  '@emnapi/runtime@1.11.1':
+  '@emnapi/runtime@1.11.2':
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -3375,7 +3384,7 @@ snapshots:
 
   '@img/sharp-wasm32@0.34.5':
     dependencies:
-      '@emnapi/runtime': 1.11.1
+      '@emnapi/runtime': 1.11.2
     optional: true
 
   '@img/sharp-win32-arm64@0.34.5':
@@ -3444,34 +3453,34 @@ snapshots:
       '@tybys/wasm-util': 0.10.3
     optional: true
 
-  '@next/env@15.5.19': {}
+  '@next/env@15.5.21': {}
 
   '@next/eslint-plugin-next@15.5.19':
     dependencies:
       fast-glob: 3.3.1
 
-  '@next/swc-darwin-arm64@15.5.19':
+  '@next/swc-darwin-arm64@15.5.21':
     optional: true
 
-  '@next/swc-darwin-x64@15.5.19':
+  '@next/swc-darwin-x64@15.5.21':
     optional: true
 
-  '@next/swc-linux-arm64-gnu@15.5.19':
+  '@next/swc-linux-arm64-gnu@15.5.21':
     optional: true
 
-  '@next/swc-linux-arm64-musl@15.5.19':
+  '@next/swc-linux-arm64-musl@15.5.21':
     optional: true
 
-  '@next/swc-linux-x64-gnu@15.5.19':
+  '@next/swc-linux-x64-gnu@15.5.21':
     optional: true
 
-  '@next/swc-linux-x64-musl@15.5.19':
+  '@next/swc-linux-x64-musl@15.5.21':
     optional: true
 
-  '@next/swc-win32-arm64-msvc@15.5.19':
+  '@next/swc-win32-arm64-msvc@15.5.21':
     optional: true
 
-  '@next/swc-win32-x64-msvc@15.5.19':
+  '@next/swc-win32-x64-msvc@15.5.21':
     optional: true
 
   '@nodelib/fs.scandir@2.1.5':
@@ -3951,7 +3960,7 @@ snapshots:
 
   '@splidejs/splide@4.1.4': {}
 
-  '@splinetool/react-spline@4.1.0(@splinetool/runtime@1.12.98)(next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
+  '@splinetool/react-spline@4.1.0(@splinetool/runtime@1.12.98)(next@15.5.21(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0))(react-dom@19.2.7(react@19.2.7))(react@19.2.7)':
     dependencies:
       '@splinetool/runtime': 1.12.98
       blurhash: 2.0.5
@@ -3961,7 +3970,7 @@ snapshots:
       react-merge-refs: 2.1.1
       thumbhash: 0.1.1
     optionalDependencies:
-      next: 15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0)
+      next: 15.5.21(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0)
 
   '@splinetool/runtime@1.12.98':
     dependencies:
@@ -4357,7 +4366,7 @@ snapshots:
 
   camelcase-css@2.0.1: {}
 
-  caniuse-lite@1.0.30001799: {}
+  caniuse-lite@1.0.30001806: {}
 
   canvas-confetti@1.9.4: {}
 
@@ -5778,6 +5787,8 @@ snapshots:
 
   nanoid@3.3.15: {}
 
+  nanoid@3.3.16: {}
+
   napi-postinstall@0.3.4: {}
 
   natural-compare@1.4.0: {}
@@ -5801,24 +5812,24 @@ snapshots:
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
 
-  next@15.5.19(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0):
+  next@15.5.21(react-dom@19.2.7(react@19.2.7))(react@19.2.7)(sass@1.101.0):
     dependencies:
-      '@next/env': 15.5.19
+      '@next/env': 15.5.21
       '@swc/helpers': 0.5.15
-      caniuse-lite: 1.0.30001799
-      postcss: 8.5.15
+      caniuse-lite: 1.0.30001806
+      postcss: 8.5.23
       react: 19.2.7
       react-dom: 19.2.7(react@19.2.7)
       styled-jsx: 5.1.6(react@19.2.7)
     optionalDependencies:
-      '@next/swc-darwin-arm64': 15.5.19
-      '@next/swc-darwin-x64': 15.5.19
-      '@next/swc-linux-arm64-gnu': 15.5.19
-      '@next/swc-linux-arm64-musl': 15.5.19
-      '@next/swc-linux-x64-gnu': 15.5.19
-      '@next/swc-linux-x64-musl': 15.5.19
-      '@next/swc-win32-arm64-msvc': 15.5.19
-      '@next/swc-win32-x64-msvc': 15.5.19
+      '@next/swc-darwin-arm64': 15.5.21
+      '@next/swc-darwin-x64': 15.5.21
+      '@next/swc-linux-arm64-gnu': 15.5.21
+      '@next/swc-linux-arm64-musl': 15.5.21
+      '@next/swc-linux-x64-gnu': 15.5.21
+      '@next/swc-linux-x64-musl': 15.5.21
+      '@next/swc-win32-arm64-msvc': 15.5.21
+      '@next/swc-win32-x64-msvc': 15.5.21
       sass: 1.101.0
       sharp: 0.34.5
     transitivePeerDependencies:
@@ -5986,6 +5997,12 @@ snapshots:
   postcss@8.5.15:
     dependencies:
       nanoid: 3.3.15
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.23:
+    dependencies:
+      nanoid: 3.3.16
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
