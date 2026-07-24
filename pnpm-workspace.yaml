@@ -6,9 +6,13 @@ allowBuilds:
   sharp: false
   unrs-resolver: false
 
+minimumReleaseAgeExclude:
+  - js-yaml@5.2.2
+
 overrides:
-  "js-yaml": ">=4.2.0"
-  "postcss": ">=8.5.10"
+  "js-yaml": ">=5.2.2"
+  "postcss": ">=8.5.15"
+  "brace-expansion@<2.0.0": ">=1.1.16"
 
 patchedDependencies:
   gray-matter@4.0.3: "patches/gray-matter@4.0.3.patch"
