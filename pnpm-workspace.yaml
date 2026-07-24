@@ -1,14 +1,20 @@
 allowBuilds:
-  '0': '@parcel/watcher'
-  '1': sharp
-  '2': unrs-resolver
-  '@parcel/watcher': false
-  sharp: false
-  unrs-resolver: false
+  '@parcel/watcher': true
+  sharp: true
+  unrs-resolver: true
+
+minimumReleaseAgeExclude:
+  - js-yaml@5.2.2
+
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - sharp
+  - unrs-resolver
 
 overrides:
-  "js-yaml": ">=4.2.0"
-  "postcss": ">=8.5.10"
+  "js-yaml": ">=5.2.2"
+  "postcss": ">=8.5.15"
+  "brace-expansion@<2.0.0": ">=1.1.16"
 
 patchedDependencies:
   gray-matter@4.0.3: "patches/gray-matter@4.0.3.patch"
