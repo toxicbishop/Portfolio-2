@@ -1,6 +1,11 @@
 minimumReleaseAgeExclude:
   - js-yaml@5.2.2
 
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - sharp
+  - unrs-resolver
+
 overrides:
   "js-yaml": ">=5.2.2"
   "postcss": ">=8.5.15"
