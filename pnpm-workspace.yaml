@@ -7,7 +7,7 @@ allowBuilds:
   unrs-resolver: true
 
 minimumReleaseAgeExclude:
-  - js-yaml@5.2.2
+  - js-yaml
 
 onlyBuiltDependencies:
   - "@parcel/watcher"
