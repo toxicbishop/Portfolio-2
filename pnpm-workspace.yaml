@@ -1,3 +1,6 @@
+packages:
+  - .
+
 allowBuilds:
   '0': '@parcel/watcher'
   '1': sharp
@@ -7,8 +10,15 @@ allowBuilds:
   unrs-resolver: false
 
 overrides:
+<<<<<<< Updated upstream
   "js-yaml": ">=4.2.0"
   "postcss": ">=8.5.10"
+=======
+  "js-yaml": ">=5.2.2"
+  "postcss": ">=8.5.18"
+  sharp: '>=0.35.0'
+  brace-expansion: '>=5.0.8'
+>>>>>>> Stashed changes
 
 patchedDependencies:
   gray-matter@4.0.3: "patches/gray-matter@4.0.3.patch"
